@@ -388,6 +388,9 @@ footer .footer_links img {
     height: 200px;
   }
   .left-right-2 .right-2 h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: 28px;
     line-height: 28px;
     letter-spacing: -2.14286px;
@@ -433,7 +436,6 @@ footer .footer_links img {
   }
   .end-card {
     margin-top: 100px;
-    padding: 100px 150px;
     background-color: #495567;
     display: flex;
     flex-direction: column;
@@ -453,7 +455,6 @@ footer .footer_links img {
   }
   footer {
     width: 100%;
-    padding: 22px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
